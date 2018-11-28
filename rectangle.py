@@ -1,7 +1,6 @@
 from math import pi
 from random import uniform, randrange
-randrange(0, 2)   # náhodné celé číslo 0, 1 alebo 2
-
+randrange(0, 2)   # random integer (0 or 1)
 
 def rect_circ(width, height):
     "Returns rectangle circumference."
@@ -104,7 +103,7 @@ else:
           cylinder_vol(a / 2, b / 2, x), 'is m3')
     print('Thank you for using the random geometric calculator.')
 
-    print("""\nBONUS:\nThe Schrödinger's cat.\nUnce upon the time...
+    print("""\nBONUS:\nThe Schrödinger's cat.\nOnce upon the time...
 ...there was an important quantum experiment.""")
     random_num = randrange(0, 2)
     if yes_or_no(random_num):
